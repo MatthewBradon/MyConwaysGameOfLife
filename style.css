@@ -1,0 +1,18 @@
+body {
+    background-color: darkgrey;
+}
+
+button {
+    min-width: 250px;
+    min-height: 100px;
+    font-size: large;
+    
+}
+
+button:hover{
+    background-color: lightgreen;
+}
+
+main h1{
+    margin-left: 18%;
+}
