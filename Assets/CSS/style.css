@@ -2,24 +2,15 @@ body {
     background-color: darkgrey;
 }
 
-button {
-    min-width: 250px;
-    min-height: 100px;
-    font-size: large;
-    
-}
-
-button:hover{
-    background-color: lightgreen;
-}
-
 main h1{
     margin-left: 18%;
 }
 
 canvas {
     border: solid;
-}
+    padding: 0;
+    margin: 0;
+  }
 
 nav h1 {
     margin: auto auto;
@@ -63,4 +54,82 @@ nav {
     top: 0;
     width: 100%;
     z-index: 1;
+}
+
+.controlButtons {
+    min-width: 250px;
+    min-height: 100px;
+    font-size: large;
+    
+}
+
+.colorTheme{
+  min-width: 150px;
+  min-height: 50px;
+  
+}
+#lightTheme:hover{
+  color: #454241;
+  background-color: #dedede;
+  transition: all 0.2s;
+}
+#darkTheme{
+  color: #454241;
+  background-color: #dedede;
+  transition: all 0.2s;
+}
+#lightTheme {
+  color: #dedede;
+  background-color: #454241;
+  transition: all 0.2s;
+}
+#darkTheme:hover {
+  color: #dedede;
+  background-color: #454241;
+  transition: all 0.2s;
+}
+
+.controlButtons:hover{
+    background-color: lightgreen;
+}
+#BlueColor {
+  height: 50px;
+  width: 50px;
+  background-color: #11469c;
+}
+#RedColor {
+  height: 50px;
+  width: 50px;
+  background-color: #8f0d1c;
+}
+
+#YellowColor {
+  height: 50px;
+  width: 50px;
+  background-color: #e6df25;
+}
+#GreenColor {
+  height: 50px;
+  width: 50px;
+  background-color: #57c914;
+}
+#PurpleColor {
+  height: 50px;
+  width: 50px;
+  background-color: #741694;
+}
+#OrangeColor {
+  height: 50px;
+  width: 50px;
+  background-color: #FFA500;
+}
+#WhiteColor {
+  height: 50px;
+  width: 50px;
+  background-color: #FFFFFF;
+}
+#BlackColor {
+  height: 50px;
+  width: 50px;
+  background-color: #000000;
 }
