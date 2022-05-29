@@ -15,8 +15,8 @@ var isDarkTheme = 0;
 var isErase = 0;
 
 const canvas = document.getElementById('Canvas');
-canvas.width = 250;
-canvas.height = 250;
+canvas.width = 1000;
+canvas.height = 1000;
 const cellSide = 10;
 var ctx = canvas.getContext('2d');
 
